@@ -19,7 +19,7 @@ Getting started with SpotSonic, go through the following steps:
 1. Clone the repository:
     ``` 
 
-    git clone https://github.com/lewiskirori/spotsonic.git
+    git clone https://github.com/lewiskirori/SpotiUpload.git
     
     ```
 
