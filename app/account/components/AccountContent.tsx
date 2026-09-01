@@ -200,7 +200,7 @@ const AccountContent = () => {
             <input
               value={draft.name}
               onChange={(e) => setDraft((d) => ({ ...d, name: e.target.value }))}
-              placeholder="Add a name (Optional. Leave blank to keep your current one.)"
+              placeholder="Add a name (Leave blank to keep your current one.)"
               className="rounded-lg border border-[#2A2A2E] bg-[#111113] px-3 py-2 text-[0.95rem] text-[#F2F0EA] outline-none transition-colors focus:border-[#F2F0EA]"
             />
           </label>
@@ -252,7 +252,7 @@ const AccountContent = () => {
       </div>
 
       <footer className="mt-20 flex flex-col items-center gap-2 text-[0.8rem] text-[#6E6C76]">
-        <span>© {currentYear} Spotsonic AY</span>
+        <span>© {currentYear} Spotsonic AY.</span>
         <span>
           Find us on{" "}
           <a
