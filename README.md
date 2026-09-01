@@ -1,10 +1,10 @@
 # SpotiUpload
 
-Welcome to SpotiUpload - rich soundtrack collection for your taste!
+Welcome to SpotiUpload - Listen/Upload rich soundtrack collection for your taste!
 
 ## Overview
 
-SpotiUpload is the latest digital music platform, allowing access and storage to a large library of songs and a rich sonic experience for all music lovers. Discover, listen, and enjoy your favorites hassle-free.
+SpotiUpload is the latest digital music platform, allowing access and storage to a large library of songs and a rich sonic experience for all music lovers. Discover, listen, upload, and enjoy your favorites hassle-free.
 
 ## Features
 
