@@ -93,13 +93,7 @@ const AccountContent = () => {
                 </span>
                 <br />
                 <span style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>
-                    <span style={{ color: '#25B361' }}>{userStatus === 'Yo ho ho!' ? 'Yo ho ho!' : 'Awf-air'}</span>
                         <br />
-                    <span style={{ fontSize: '1rem', marginTop: '0.5rem', fontStyle: 'italic' }}>
-                        And why it make us happy is our business 
-                            <br /> 
-                        Lil Durk
-                    </span>
                 </span>
                 <footer style={{ marginBottom: '1rem', fontSize: '0.9rem', color: '#888' }}>
                     <span>
