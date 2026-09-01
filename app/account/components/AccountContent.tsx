@@ -158,7 +158,7 @@ const AccountContent = () => {
           Wired in, {username}
         </h1>
         <p className="mt-2 max-w-[46ch] text-center text-[0.95rem] text-[#9A98A3]">
-          Your library, your queue, your taste. All tuned to this account.
+          Your library, your playlist(s), your taste. All tuned to this account.
         </p>
 
         <Button
