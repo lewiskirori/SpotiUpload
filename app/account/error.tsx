@@ -7,7 +7,7 @@ const Error = () => {
         <Box className="h-full flex items-center justify-center">
             <div className="text-neutral-400 flex flex-col items-center">
                 <span style={{ fontSize: '1.2rem' }}>
-                    Oh sorry — it appears there’s been a hiccup!
+                    Oh sorry. It appears there’s been a hiccup!
                 </span>
                 <br />
                 <span style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
