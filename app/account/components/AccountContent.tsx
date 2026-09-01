@@ -92,7 +92,7 @@ const AccountContent = () => {
       setIsEditing(false);
       setTimeout(() => setSaved(false), 2500);
     } catch {
-      setSaveError("Couldn't save your changes. Try again.");
+      setSaveError("Couldn't save your changes. Please give it another try later.");
     } finally {
       setIsSaving(false);
     }
@@ -155,7 +155,7 @@ const AccountContent = () => {
           className="mt-8 text-center text-[2rem] leading-tight tracking-tight"
           style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600 }}
         >
-          Welcome back, {username}
+          Wired in, {username}
         </h1>
         <p className="mt-2 max-w-[46ch] text-center text-[0.95rem] text-[#9A98A3]">
           Your library, your queue, your taste. All tuned to this account.
@@ -200,7 +200,7 @@ const AccountContent = () => {
             <input
               value={draft.name}
               onChange={(e) => setDraft((d) => ({ ...d, name: e.target.value }))}
-              placeholder="Add a name"
+              placeholder="Add a name (Optional. Leave blank to keep your current one.)"
               className="rounded-lg border border-[#2A2A2E] bg-[#111113] px-3 py-2 text-[0.95rem] text-[#F2F0EA] outline-none transition-colors focus:border-[#F2F0EA]"
             />
           </label>
@@ -221,7 +221,7 @@ const AccountContent = () => {
           {!isGoogleAccount && (
             <button
               type="button"
-              onClick={() => router.push("/account/password")}
+              onClick={() => router.push("#/account/password")}
               className="self-start text-sm text-[#9A98A3] underline-offset-4 transition-colors hover:text-[#F2F0EA] hover:underline"
             >
               Change password
@@ -252,7 +252,7 @@ const AccountContent = () => {
       </div>
 
       <footer className="mt-20 flex flex-col items-center gap-2 text-[0.8rem] text-[#6E6C76]">
-        <span>© {currentYear} Spotsonic</span>
+        <span>© {currentYear} Spotsonic AY</span>
         <span>
           Find us on{" "}
           <a
