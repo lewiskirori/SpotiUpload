@@ -252,11 +252,11 @@ const AccountContent = () => {
       </div>
 
       <footer className="mt-20 flex flex-col items-center gap-2 text-[0.8rem] text-[#6E6C76]">
-        <span>© {currentYear} Spotsonic AY.</span>
+        <span>© {currentYear} SpotiUpload AY.</span>
         <span>
           Find us on{" "}
           <a
-            href="#@realspotsonic"
+            href="#@realspotiupload"
             className="text-[#9A98A3] transition-colors duration-200 hover:text-[#F2F0EA] hover:underline"
           >
             Socials
