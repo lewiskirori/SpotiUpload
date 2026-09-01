@@ -40,7 +40,7 @@ const LikedContent: React.FC<LikedContentProps> = ({
             style={{ paddingTop: '50px', marginTop: 'auto', marginBottom: 'auto' }}
             >
                 <span style={{ fontSize: '1.0rem' }}>
-                    Ahh — No favorites have been added yet.
+                    Whoops! No favorites have been added yet.
                 </span>
             </div>
         )
